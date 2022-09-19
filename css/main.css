@@ -1,3 +1,61 @@
-p{
-    color: crimson
+/*
+===============================================
+CSS Garden Design---- Haley Ryan
+===============================================
+01 Color
+02 Layout
+03 Font
+04 Other Decoration
+05 Media
+*/
+
+/* 
+COLOR
+*/
+html{
+    background-color: rgba(248, 206, 253, 0.821);
+}
+body{
+    background-color: rgba(248, 182, 255, 0.658);
+    padding: 7%;
+}
+div.preamble,div.requirement,div.benefits{
+    color: hsla(180, 0%, 25%, 0.9);
+    background-color: rgb(250, 230, 248);
+}
+header h1{
+    background-color: rgba(170, 102, 193, 0.9);
+}
+footer{
+    background-color: rgb(192, 133, 234);
+}
+div.participation{
+    background-color: rgb(191, 142, 238);
+}
+aside.sidebar{
+    background-color: rgba(137, 43, 226, 0.633);
+}
+/*
+LAYOUT
+*/
+div,article,section,header,nav,figure,li{
+    position: relative;
+}
+header h1{
+    position: relative;
+    top: -100px; /* No change?? */
+    left: 20px;
+}
+aside.sidebar{
+    position: absolute;
+    top: 4%;
+    right: 0%;
+    width: 17%
+    
+}
+footer{
+    position: fixed;
+    width: 30%;
+    left: 30%;
+    bottom: 0px;
 }
