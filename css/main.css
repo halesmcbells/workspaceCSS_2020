@@ -59,3 +59,49 @@ footer{
     left: 30%;
     bottom: 0px;
 }
+section.intro{
+    width: 60%
+}
+div.explanation{
+    float: left;
+    width: 40%;
+    padding: 5;
+}
+div.participation{
+    margin-left: 50%;
+    width: 40%
+    padding 15;
+}
+div.benefits{
+    float: left;
+    width: 40%;
+    padding: 5;
+}
+div.requirement{
+    
+    float: left;
+    width: 40%;
+    padding: 5;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*@font-face {
+    font-family: 'myfont';
+    src: url('../fonts/chunkfive.woff');
+}
+header h1{
+    font-family: 'myfont';
+    text-indent: -9999px;
+    background-image: url(put zengarden gif here);
+}*/
+h3{
+    font-size: 2.25em;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 1em;
+}
+h2{
+
+}
+
